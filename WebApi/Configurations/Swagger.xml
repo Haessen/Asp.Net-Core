@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Configurations.AppLogger.Info(System.String,System.Exception)">
+            <summary>
+            Info日志
+            </summary>
+            <param name="message"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WebApi.Configurations.AppLogger.Debug(System.String,System.Exception)">
+            <summary>
+            Debug日志
+            </summary>
+            <param name="message"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WebApi.Configurations.AppLogger.Warn(System.String,System.Exception)">
+            <summary>
+            Warn日志
+            </summary>
+            <param name="message"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WebApi.Configurations.AppLogger.Error(System.String,System.Exception)">
+            <summary>
+            Error日志
+            </summary>
+            <param name="message"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WebApi.Controllers.HttpTestController.GetAsync">
+            <summary>
+            HttpGet测试
+            </summary>
+            <returns>Hello World!</returns>
+        </member>
+        <member name="M:WebApi.Controllers.HttpTestController.Post(System.Int32)">
+            <summary>
+            HttpPost测试
+            </summary>
+            <param name="id">ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.SlidingDetectionController.HttpGetTest">
+            <summary>
+            HttpGet测试
+            </summary>
+            <returns>Hello World!</returns>
+        </member>
+        <member name="M:WebApi.Controllers.SlidingDetectionController.HttpPostTest(System.Int32)">
+            <summary>
+            HttpPost测试
+            </summary>
+            <param name="id">ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Startup.UnhandledException(System.Object,System.UnhandledExceptionEventArgs)">
+            <summary>
+            未处理异常处理及记录
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>
